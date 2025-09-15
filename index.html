@@ -8,18 +8,25 @@
   </head>
   <body>
     <!-- Loading overlay -->
-    <div id="loading-overlay" style="
-      position: fixed;
-      inset: 0;
-      background-color: #000;
-      color: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 1.5rem;
-      z-index: 9999;
-    ">
-      Loading...
+    <div
+      id="loading-overlay"
+      style="
+        position: fixed;
+        inset: 0;
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        z-index: 9999;
+        font-family: monospace, monospace;
+      "
+    >
+      Loading
+      <span class="dot">.</span>
+      <span class="dot">.</span>
+      <span class="dot">.</span>
     </div>
 
     <div id="root"></div>
